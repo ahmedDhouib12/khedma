@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href= "https://fontawesome.com/icons/right-to-bracket?f=classic&s=solid"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="https://fontawesome.com/v4/icon/user"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="main.css"/>
+    <title>Dream home reality</title>
+</head>
+<body>
+
+    <header>
+        <img src="logo.jpg" alt="logo" id="logo">
+        <div>
+            <ul class="navbar" type="none">
+                <li><a href="main.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="dropdown">
+                    <a href="buy.html">Buy</a>
+                    <div class="dropdown-content">
+                        <a href="#">buy</a>
+                        <a href="#">rent</a>
+                        <a href="#">sell</a>
+                    </div>
+                </li>
+                <li><a href="login.html">login </a></li>
+                <li><a href="buy.html"><i class="far fa-shopping-bag"></i></a></li>
+                <li><a href="about.html"><i class="fa-solid fa-user"></i></a></li>
+                <li><a href="login.html"><i class="fa-solid fa-right-to-bracket"></i></a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="menu">
+        <form class="search">
+            <input type="search" id="search" name="search" placeholder="enter an address, neigborhood,city , or zip code" >
+          </form>
+        </div>
+        <div class="tsawer">
+
+            <div id="div1">
+            <h1>Get home recommendations</h1>
+            <h2>Sign in for a more personalized experience.</h2>
+            <button id="loginButton" class="testbutton">Login</button>
+            </div>
+            <div id="div2"><img class="image" src="h4.jpg"></div>
+            <div id="div3"><img class="image" src="h7.jpg"></div>
+            <div id="div4"><img class="image" src="h12.jpg"></div>
+        </div>
+        <div class="tlem ">
+            <div class="container">
+                <div class="card">
+                    <div class="circle">
+                        <h4>Buy a home</h4>
+                    </div>
+                    <div class="content">
+                        <p>Find your place with an immersive photo experience and the most listings, including things you won’t find anywhere else.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="circle">
+                        <h4>Sell a home</h4>
+                    </div>
+                    <div class="content">
+                        <p>No matter what path you take to sell your home, we can help you navigate a successful sale.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="circle">
+                        <h4>Rent a home</h4>
+                    </div>
+                    <div class="content">
+                        <p>We’re creating a seamless online experience – from shopping on the largest rental network, to applying, to paying rent.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+        </body> 
+ 
+<script>
+    // Select the button element by its ID
+    var loginButton = document.getElementById('loginButton');
+
+    // Add a click event listener to the button
+    loginButton.addEventListener('click', function() {
+        // Redirect to login.html when the button is clicked
+        window.location.href = 'login.html';
+    });
+</script>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="about.html">about us</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">affiliate program</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">shipping</a></li>
+                    <li><a href="#">returns</a></li>
+                    <li><a href="#">order status</a></li>
+                    <li><a href="#">payment options</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>online shop</h4>
+                <ul>
+                    <li><a href="#">House</a></li>
+                    <li><a href="#">studio</a></li>
+                    <li><a href="#">bungalow</a></li>
+                    <li><a href="#">flat</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/ahmed.dhouib.50/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/ahmeddhouib49/"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+  
+</html>
